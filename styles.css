@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #91d18b; /* Soft green header background */
+    background-color: #354a33; /* Soft green header background */
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -64,7 +64,7 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px 0;
-    background-color: #91d18b; /* Soft green footer background */
+    background-color: #354a33; /* Soft green footer background */
     color: #fff;
 }
 
