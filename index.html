@@ -1,53 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mooniverse, LLC</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+  <title>Error</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .error-message {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #777;
+      margin-bottom: 20px;
+    }
+
+    .back-link {
+      color: #777;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Mooniverse, LLC</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <h2>Welcome</h2>
-        <p>We provide quality bookkeeping services to a wide range of clients. Let us know how we can help you.</p>
-    </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Bookkeeping</li>
-            <!-- Add more services as needed -->
-        </ul>
-    </section>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a team of experienced accountants dedicated to helping businesses manage their finances effectively.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or would like to inquire about our services, please don't hesitate to get in touch with us.</p>
-        <address>
-            Email: <a href="mailto:adm@mooniversellc.com">adm@mooniversellc.com</a><br>
-            <!-- Phone: <a href="tel:+123456789">+123-456-789</a> -->
-        </address>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Mooniverse, LLC. All rights reserved.</p>
-    </footer>
+  <div class="container">
+    <div class="error-message">
+      <h1>Oops! Something went wrong.</h1>
+      <p>We're sorry, but an error occurred while processing your request.</p>
+      <p>Please try again later.</p>
+      <p><a href="/" class="back-link">Go back to the homepage</a></p>
+    </div>
+  </div>
 </body>
 </html>
